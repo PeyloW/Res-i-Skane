@@ -30,7 +30,7 @@
 
 @implementation ResaISkaneAppDelegate
 
-@synthesize window;
+@synthesize window, mainViewController;
 
 -(void)displayInformationIfNeeded;
 {
@@ -59,31 +59,28 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     
 	[CWNetworkChecker setDefaultHost:[[NSURL URLWithString:[[[NSBundle mainBundle] infoDictionary] valueForKey:@"ServerURL"]] host]];
-    
-    FOJourneySearchController* rootController = [[FOJourneySearchController alloc] init];
-    mainViewController = [[UINavigationController alloc] initWithRootViewController:rootController];
-	[rootController release];
-    
-    window.backgroundColor = [UIColor groupTableViewBackgroundColor];
+
     [window addSubview:mainViewController.view];
     [window makeKeyAndVisible];
     
     if ([FOModel sharedModel].currentJourneyList != nil) {
         UIViewController* controller = [[FOJourneyListController alloc] init];
-        [rootController presentModalViewController:controller animated:NO];
+        [mainViewController presentModalViewController:controller animated:NO];
         [controller release];
     }
-    UIImage* backImage = [UIImage imageNamed:@"Default.png"];
-    UIView* backView = [[UIImageView alloc] initWithImage:backImage];
-    backView.frame = window.bounds;
-    [window addSubview:backView];
-    [UIView beginAnimations:@"FOFadeIn" context:(void*)backView];
-    [UIView setAnimationDelegate:self];
-    [UIView setAnimationDidStopSelector:
-     @selector(animationDidStop:finished:context:)];
-    [UIView setAnimationDuration:0.5f];
-    backView.alpha = 0;
-    [UIView commitAnimations];
+    if ([UIDevice isPhone]) {
+        UIImage* backImage = [UIImage imageNamed:@"Default.png"];
+        UIView* backView = [[UIImageView alloc] initWithImage:backImage];
+        backView.frame = window.bounds;
+        [window addSubview:backView];
+        [UIView beginAnimations:@"FOFadeIn" context:(void*)backView];
+        [UIView setAnimationDelegate:self];
+        [UIView setAnimationDidStopSelector:
+         @selector(animationDidStop:finished:context:)];
+        [UIView setAnimationDuration:0.5f];
+        backView.alpha = 0;
+        [UIView commitAnimations];
+    }
     [self performSelectorInBackground:@selector(displayInformationIfNeeded) withObject:nil];
 }
 

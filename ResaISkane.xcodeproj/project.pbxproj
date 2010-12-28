@@ -68,6 +68,13 @@
 		A689D53E12CA8BD8005B2F1D /* NSInvocation+CWVariableArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = A689D53D12CA8BD8005B2F1D /* NSInvocation+CWVariableArguments.m */; };
 		A689D55212CA8C22005B2F1D /* NSOperationQueue+CWDefaultQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A689D55112CA8C22005B2F1D /* NSOperationQueue+CWDefaultQueue.m */; };
 		A689D56B12CA8D95005B2F1D /* NSError+CWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A689D56A12CA8D95005B2F1D /* NSError+CWAdditions.m */; };
+		A689D61512CA9814005B2F1D /* MainWindow-Pad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A689D61412CA9814005B2F1D /* MainWindow-Pad.xib */; };
+		A689D61912CA9857005B2F1D /* UIDevice+CWCapabilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A689D61812CA9857005B2F1D /* UIDevice+CWCapabilities.m */; };
+		A689D68412CA997D005B2F1D /* CWStackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A689D67F12CA997D005B2F1D /* CWStackController.m */; };
+		A689D68512CA997D005B2F1D /* CWStackItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = A689D68112CA997D005B2F1D /* CWStackItemView.m */; };
+		A689D68612CA997D005B2F1D /* CWStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = A689D68312CA997D005B2F1D /* CWStackView.m */; };
+		A689D68812CA9987005B2F1D /* stackview_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = A689D68712CA9987005B2F1D /* stackview_shadow.png */; };
+		A689D68D12CA9AF4005B2F1D /* NSObject+CWNibLocalizations.m in Sources */ = {isa = PBXBuildFile; fileRef = A689D68C12CA9AF4005B2F1D /* NSObject+CWNibLocalizations.m */; };
 		A68BF8C910FC970600C1AF74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A68BF8C810FC970600C1AF74 /* Localizable.strings */; };
 		A68F819B10DA9D8600599EE2 /* FOPointSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68F819910DA9D8600599EE2 /* FOPointSelectionController.m */; };
 		A68F824610DAB66200599EE2 /* swap.png in Resources */ = {isa = PBXBuildFile; fileRef = A68F824510DAB66200599EE2 /* swap.png */; };
@@ -225,6 +232,18 @@
 		A689D55112CA8C22005B2F1D /* NSOperationQueue+CWDefaultQueue.m */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.objc; name = "NSOperationQueue+CWDefaultQueue.m"; path = "Shared Classes/NSOperationQueue+CWDefaultQueue.m"; sourceTree = "<group>"; };
 		A689D56912CA8D95005B2F1D /* NSError+CWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.h; name = "NSError+CWAdditions.h"; path = "Shared Classes/NSError+CWAdditions.h"; sourceTree = "<group>"; };
 		A689D56A12CA8D95005B2F1D /* NSError+CWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.objc; name = "NSError+CWAdditions.m"; path = "Shared Classes/NSError+CWAdditions.m"; sourceTree = "<group>"; };
+		A689D61412CA9814005B2F1D /* MainWindow-Pad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-Pad.xib"; sourceTree = "<group>"; };
+		A689D61712CA9857005B2F1D /* UIDevice+CWCapabilities.h */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.h; name = "UIDevice+CWCapabilities.h"; path = "Shared Classes/UIDevice+CWCapabilities.h"; sourceTree = "<group>"; };
+		A689D61812CA9857005B2F1D /* UIDevice+CWCapabilities.m */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+CWCapabilities.m"; path = "Shared Classes/UIDevice+CWCapabilities.m"; sourceTree = "<group>"; };
+		A689D67E12CA997D005B2F1D /* CWStackController.h */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.h; name = CWStackController.h; path = "Shared Classes/CWStackController.h"; sourceTree = "<group>"; };
+		A689D67F12CA997D005B2F1D /* CWStackController.m */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.objc; name = CWStackController.m; path = "Shared Classes/CWStackController.m"; sourceTree = "<group>"; };
+		A689D68012CA997D005B2F1D /* CWStackItemView.h */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.h; name = CWStackItemView.h; path = "Shared Classes/CWStackItemView.h"; sourceTree = "<group>"; };
+		A689D68112CA997D005B2F1D /* CWStackItemView.m */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.objc; name = CWStackItemView.m; path = "Shared Classes/CWStackItemView.m"; sourceTree = "<group>"; };
+		A689D68212CA997D005B2F1D /* CWStackView.h */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.h; name = CWStackView.h; path = "Shared Classes/CWStackView.h"; sourceTree = "<group>"; };
+		A689D68312CA997D005B2F1D /* CWStackView.m */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.objc; name = CWStackView.m; path = "Shared Classes/CWStackView.m"; sourceTree = "<group>"; };
+		A689D68712CA9987005B2F1D /* stackview_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stackview_shadow.png; sourceTree = "<group>"; };
+		A689D68B12CA9AF4005B2F1D /* NSObject+CWNibLocalizations.h */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.h; name = "NSObject+CWNibLocalizations.h"; path = "Shared Classes/NSObject+CWNibLocalizations.h"; sourceTree = "<group>"; };
+		A689D68C12CA9AF4005B2F1D /* NSObject+CWNibLocalizations.m */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CWNibLocalizations.m"; path = "Shared Classes/NSObject+CWNibLocalizations.m"; sourceTree = "<group>"; };
 		A68BF8CA10FC973400C1AF74 /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sv; path = Resources/sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A68BF8CB10FC973B00C1AF74 /* da */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = da; path = Resources/da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A68BF8CC10FC974000C1AF74 /* ar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ar; path = Resources/ar.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -357,11 +376,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				A64FFCDB126A290B00427A08 /* CoreLocation.framework */,
-				A64FFCD2126A04E100427A08 /* MapKit.framework */,
-				A64FFCD3126A04E100427A08 /* MessageUI.framework */,
-				A64FFCD4126A04E100427A08 /* QuartzCore.framework */,
-				A64FFCD5126A04E100427A08 /* SystemConfiguration.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -369,6 +383,7 @@
 		29B97315FDCFA39411CA2CEA /* Shared Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A689D67D12CA9968005B2F1D /* Stack Controller */,
 				A689D60012CA9675005B2F1D /* Additions */,
 				A643DB9110F23D8900F1DA0F /* CWHorizontalLayoutView.h */,
 				A643DB9210F23D8900F1DA0F /* CWHorizontalLayoutView.m */,
@@ -387,6 +402,8 @@
 				A6BC387010EB4EC100627F1E /* CWNetworkChecker.m */,
 				A6D0767412215F72009494AE /* CWRateNagger.h */,
 				A6D0767512215F72009494AE /* CWRateNagger.m */,
+				A689D61712CA9857005B2F1D /* UIDevice+CWCapabilities.h */,
+				A689D61812CA9857005B2F1D /* UIDevice+CWCapabilities.m */,
 			);
 			name = "Shared Sources";
 			sourceTree = "<group>";
@@ -396,6 +413,7 @@
 			children = (
 				A620776A11004DB500C3D5ED /* Images */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				A689D61412CA9814005B2F1D /* MainWindow-Pad.xib */,
 				A64B89C911195D3C0028FE9C /* FOJourneySearchController.xib */,
 				A6A9EE7B10EA5D7E008B4B6C /* FOJourneyListController.xib */,
 				A648B886112073A7005ADD8B /* FOLineDetailCell.xib */,
@@ -407,7 +425,6 @@
 				A6F4E67410EA5C5000A5105F /* FODateSelectionController.xib */,
 				A632CC3E10EA44BA00FD2F79 /* FOPointSelectionController.xib */,
 				A687D84711209CCB000B7545 /* FOLineDetailController.xib */,
-				8D1107310486CEB800E47090 /* ResaISkane-Info.plist */,
 				A6252C4010CD0A0B005D3537 /* FOPointParser.plist */,
 				A6252CC510CD1615005D3537 /* FOJourneyParser.plist */,
 				A6A6E5371191F3010095B839 /* FOPartParser.plist */,
@@ -416,6 +433,7 @@
 				A68570B610EA968C00F57718 /* InfoPlist.strings */,
 				A6D175FE113311CF00DC5A34 /* resiskane_info.plist */,
 				A61C91211140263500719B18 /* resiskane_type.plist */,
+				8D1107310486CEB800E47090 /* ResaISkane-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -423,6 +441,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A64FFCDB126A290B00427A08 /* CoreLocation.framework */,
+				A64FFCD2126A04E100427A08 /* MapKit.framework */,
+				A64FFCD3126A04E100427A08 /* MessageUI.framework */,
+				A64FFCD4126A04E100427A08 /* QuartzCore.framework */,
+				A64FFCD5126A04E100427A08 /* SystemConfiguration.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -433,6 +456,7 @@
 		A620776A11004DB500C3D5ED /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A689D68712CA9987005B2F1D /* stackview_shadow.png */,
 				A6B816FE1118A18800672F73 /* flash.png */,
 				A6CADAD010F72BC900B116A3 /* deviations.png */,
 				A6D07707122184FB009494AE /* deviations@2x.png */,
@@ -557,6 +581,8 @@
 		A689D60012CA9675005B2F1D /* Additions */ = {
 			isa = PBXGroup;
 			children = (
+				A689D68B12CA9AF4005B2F1D /* NSObject+CWNibLocalizations.h */,
+				A689D68C12CA9AF4005B2F1D /* NSObject+CWNibLocalizations.m */,
 				A689D56912CA8D95005B2F1D /* NSError+CWAdditions.h */,
 				A689D56A12CA8D95005B2F1D /* NSError+CWAdditions.m */,
 				A689D55012CA8C22005B2F1D /* NSOperationQueue+CWDefaultQueue.h */,
@@ -575,6 +601,19 @@
 				A6252C1F10CD076D005D3537 /* NSDate+CWExtentions.m */,
 			);
 			name = Additions;
+			sourceTree = "<group>";
+		};
+		A689D67D12CA9968005B2F1D /* Stack Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A689D67E12CA997D005B2F1D /* CWStackController.h */,
+				A689D67F12CA997D005B2F1D /* CWStackController.m */,
+				A689D68012CA997D005B2F1D /* CWStackItemView.h */,
+				A689D68112CA997D005B2F1D /* CWStackItemView.m */,
+				A689D68212CA997D005B2F1D /* CWStackView.h */,
+				A689D68312CA997D005B2F1D /* CWStackView.m */,
+			);
+			name = "Stack Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -708,6 +747,8 @@
 				A6B9A3201222B00A00594313 /* call_point-1@2x.png in Resources */,
 				A6B9A3211222B00A00594313 /* call_point-2@2x.png in Resources */,
 				A6B9A3221222B00A00594313 /* call_point-3@2x.png in Resources */,
+				A689D61512CA9814005B2F1D /* MainWindow-Pad.xib in Resources */,
+				A689D68812CA9987005B2F1D /* stackview_shadow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,6 +799,11 @@
 				A689D53E12CA8BD8005B2F1D /* NSInvocation+CWVariableArguments.m in Sources */,
 				A689D55212CA8C22005B2F1D /* NSOperationQueue+CWDefaultQueue.m in Sources */,
 				A689D56B12CA8D95005B2F1D /* NSError+CWAdditions.m in Sources */,
+				A689D61912CA9857005B2F1D /* UIDevice+CWCapabilities.m in Sources */,
+				A689D68412CA997D005B2F1D /* CWStackController.m in Sources */,
+				A689D68512CA997D005B2F1D /* CWStackItemView.m in Sources */,
+				A689D68612CA997D005B2F1D /* CWStackView.m in Sources */,
+				A689D68D12CA9AF4005B2F1D /* NSObject+CWNibLocalizations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,6 +881,7 @@
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Distribution;
 		};
@@ -864,6 +911,7 @@
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -879,6 +927,7 @@
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

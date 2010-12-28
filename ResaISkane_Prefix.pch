@@ -19,4 +19,6 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
+	#import "UIDevice+CWCapabilities.h"
+	#import "CWStackController.h"
 #endif

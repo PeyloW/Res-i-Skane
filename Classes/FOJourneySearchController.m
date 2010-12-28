@@ -34,16 +34,31 @@
 	return realTableView;
 }
 
+-(void)primitiveInit;
+{
+    forcedNumberOfRows = -1;
+    sharedModel = [FOModel sharedModel];
+    self.title = NSLocalizedString(@"AppName", nil);
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pointStatusDidChangeNotification:) name:FOPointStatusDidChangeNotification object:nil];
+}
+
 -(id)init;
 {
 	self = [super initWithStyle:UITableViewStyleGrouped];
     if (self) {
-        forcedNumberOfRows = -1;
-        sharedModel = [FOModel sharedModel];
-        self.title = NSLocalizedString(@"AppName", nil);
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pointStatusDidChangeNotification:) name:FOPointStatusDidChangeNotification object:nil];
+        [self primitiveInit];
     }
     return self;
+}
+
+-(void)awakeFromNib;
+{
+    [self primitiveInit];
+}
+
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation;
+{
+	return [UIDevice isPad] || [super shouldAutorotateToInterfaceOrientation:toInterfaceOrientation];
 }
 
 -(void)updateBookmarkButton;
@@ -385,7 +400,14 @@
 -(void)displayDateSelectionController;
 {
 	FODateSelectionController* controller = [[FODateSelectionController alloc] initWithDelegate:self];
-    [self.navigationController pushViewController:controller animated:YES];
+    if ([UIDevice isPhone]) {
+	    [self.navigationController pushViewController:controller animated:YES];
+    } else {
+    	UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:controller];
+        [self.stackController popToRootViewControllerAnimated:YES];
+        [self.stackController pushViewController:navController animated:YES];
+        [navController release];
+    }
     [controller release];
 }
 
@@ -393,7 +415,14 @@
 {
     FOPointSelectionType type = row == 0 ? FOPointSelectionTypeFrom : FOPointSelectionTypeTo;
     FOPointSelectionController* controller = [[FOPointSelectionController alloc] initWithPointSelectionType:type delegate:self];
-    [self.navigationController pushViewController:controller animated:YES];
+    if ([UIDevice isPhone]) {
+	    [self.navigationController pushViewController:controller animated:YES];
+    } else {
+    	UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:controller];
+        [self.stackController popToRootViewControllerAnimated:YES];
+        [self.stackController pushViewController:navController animated:YES];
+        [navController release];
+    }
     if (search) {
         controller.searchOnly = YES;
         controller.searchDisplayController.active = YES;
@@ -406,7 +435,14 @@
 {
     if ([CWNetworkChecker isNetworkAvailable]) {
         UIViewController* controller = [[FOJourneyListController alloc] init];
-        [self presentModalViewController:controller animated:YES];
+        if ([UIDevice isPhone]) {
+            [self presentModalViewController:controller animated:YES];
+        } else {
+            UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:controller];
+            [self.stackController popToRootViewControllerAnimated:YES];
+            [self.stackController pushViewController:navController animated:YES];
+            [navController release];
+        }
         [controller release];
     } else {
         UIAlertView* alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"NoNetwork", nil) message:NSLocalizedString(@"NoNetworkTrips", nil) delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil];
@@ -422,7 +458,9 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 {
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if ([UIDevice isPhone]) {
+	    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    }
 	switch (indexPath.section) {
         case 0:
             [self displayDateSelectionController];
@@ -491,17 +529,6 @@
     }
 }
 
-/*
- -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section;
- {
- if (section == 2) {
- return [@"Xj" sizeWithFont:[UIFont systemFontOfSize:[UIFont systemFontSize]]].height * 3.5f;
- } else {
- return 0.f;
- }
- }
- */
-
 -(NSString*)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section;
 {
 	if (section == 2) {
@@ -520,7 +547,11 @@
 -(void)dateSelectionController:(FODateSelectionController *)controller didSelectDate:(NSDate *)date;
 {
 	sharedModel.date = date;
-    [self.navigationController popToViewController:self animated:YES];
+    if ([UIDevice isPhone]) {
+        [self.navigationController popToViewController:self animated:YES];
+    } else {
+        [self.stackController popToRootViewControllerAnimated:YES];
+    }
     [self.tableView reloadData];
 }
 
@@ -532,7 +563,12 @@
         sharedModel.to = point;
     }
 	[self updateStopAndSearchRows];
-    [self.navigationController popToViewController:self animated:YES];
+    if ([UIDevice isPhone]) {
+        [self.navigationController popToViewController:self animated:YES];
+    } else {
+        [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+        [self.stackController popToRootViewControllerAnimated:YES];
+    }
 }
 
 @end
