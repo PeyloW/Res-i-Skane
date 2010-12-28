@@ -136,8 +136,8 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* ResaISkane_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResaISkane_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ResaISkane_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResaISkane_Prefix.pch; path = ../ResaISkane_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ResaISkane-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ResaISkane-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A60001E3111CC0BF009BD3DC /* FOMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOMapViewController.h; sourceTree = "<group>"; };
 		A60001E4111CC0BF009BD3DC /* FOMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOMapViewController.m; sourceTree = "<group>"; };
@@ -335,6 +335,8 @@
 				A6252BCD10CCFF2F005D3537 /* Controller */,
 				1D3623240D0F684500981E51 /* ResaISkaneAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ResaISkaneAppDelegate.m */,
+				32CA4F630368D1EE00C91783 /* ResaISkane_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -351,7 +353,7 @@
 			isa = PBXGroup;
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97315FDCFA39411CA2CEA /* Shared Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -364,7 +366,7 @@
 			name = CustomTemplate;
 			sourceTree = "<group>";
 		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+		29B97315FDCFA39411CA2CEA /* Shared Sources */ = {
 			isa = PBXGroup;
 			children = (
 				A689D60012CA9675005B2F1D /* Additions */,
@@ -383,12 +385,10 @@
 				A648B8D011207D0F005ADD8B /* CWGroupedController.m */,
 				A6BC386F10EB4EC100627F1E /* CWNetworkChecker.h */,
 				A6BC387010EB4EC100627F1E /* CWNetworkChecker.m */,
-				32CA4F630368D1EE00C91783 /* ResaISkane_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
 				A6D0767412215F72009494AE /* CWRateNagger.h */,
 				A6D0767512215F72009494AE /* CWRateNagger.m */,
 			);
-			name = "Other Sources";
+			name = "Shared Sources";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
