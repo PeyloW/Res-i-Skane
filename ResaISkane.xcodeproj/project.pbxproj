@@ -75,7 +75,6 @@
 		A68F82AC10DF652900599EE2 /* point-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A68F82A910DF652900599EE2 /* point-2.png */; };
 		A68F82AD10DF652900599EE2 /* point-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A68F82AA10DF652900599EE2 /* point-1.png */; };
 		A68F82F510DF6B7800599EE2 /* UITableViewCell+FOActionTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A68F82F410DF6B7800599EE2 /* UITableViewCell+FOActionTextLabel.m */; };
-		A69325A01124920200543841 /* GTMStackTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = A693259F1124920200543841 /* GTMStackTrace.m */; };
 		A6A6E4F21191DF260095B839 /* type-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A6E4F11191DF260095B839 /* type-128.png */; };
 		A6A6E5081191E4320095B839 /* FOPart.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A6E5071191E4320095B839 /* FOPart.m */; };
 		A6A6E5381191F3010095B839 /* FOPartParser.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6A6E5371191F3010095B839 /* FOPartParser.plist */; };
@@ -242,10 +241,6 @@
 		A68F82AA10DF652900599EE2 /* point-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "point-1.png"; path = "Images/point-1.png"; sourceTree = "<group>"; };
 		A68F82F310DF6B7800599EE2 /* UITableViewCell+FOActionTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FOActionTextLabel.h"; sourceTree = "<group>"; };
 		A68F82F410DF6B7800599EE2 /* UITableViewCell+FOActionTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FOActionTextLabel.m"; sourceTree = "<group>"; };
-		A693259C1124920200543841 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = "Shared Classes/GTMDefines.h"; sourceTree = "<group>"; };
-		A693259D1124920200543841 /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.h; name = GTMObjC2Runtime.h; path = "Shared Classes/GTMObjC2Runtime.h"; sourceTree = "<group>"; };
-		A693259E1124920200543841 /* GTMStackTrace.h */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.h; name = GTMStackTrace.h; path = "Shared Classes/GTMStackTrace.h"; sourceTree = "<group>"; };
-		A693259F1124920200543841 /* GTMStackTrace.m */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.objc; name = GTMStackTrace.m; path = "Shared Classes/GTMStackTrace.m"; sourceTree = "<group>"; };
 		A6A6E4F11191DF260095B839 /* type-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "type-128.png"; path = "Images/type-128.png"; sourceTree = "<group>"; };
 		A6A6E5061191E4320095B839 /* FOPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOPart.h; sourceTree = "<group>"; };
 		A6A6E5071191E4320095B839 /* FOPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOPart.m; sourceTree = "<group>"; };
@@ -372,41 +367,22 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A689D60012CA9675005B2F1D /* Additions */,
 				A643DB9110F23D8900F1DA0F /* CWHorizontalLayoutView.h */,
 				A643DB9210F23D8900F1DA0F /* CWHorizontalLayoutView.m */,
-				A689D56912CA8D95005B2F1D /* NSError+CWAdditions.h */,
-				A689D56A12CA8D95005B2F1D /* NSError+CWAdditions.m */,
-				A689D55012CA8C22005B2F1D /* NSOperationQueue+CWDefaultQueue.h */,
-				A689D55112CA8C22005B2F1D /* NSOperationQueue+CWDefaultQueue.m */,
 				A689D53B12CA8BD8005B2F1D /* CWLog.h */,
-				A689D53C12CA8BD8005B2F1D /* NSInvocation+CWVariableArguments.h */,
-				A689D53D12CA8BD8005B2F1D /* NSInvocation+CWVariableArguments.m */,
 				A689D52612CA89C0005B2F1D /* CWXMLTranslation.h */,
 				A689D52712CA89C0005B2F1D /* CWXMLTranslation.m */,
 				A689D52812CA89C0005B2F1D /* CWXMLTranslator.h */,
 				A689D52912CA89C0005B2F1D /* CWXMLTranslator.m */,
-				A693259C1124920200543841 /* GTMDefines.h */,
-				A693259D1124920200543841 /* GTMObjC2Runtime.h */,
-				A693259E1124920200543841 /* GTMStackTrace.h */,
-				A693259F1124920200543841 /* GTMStackTrace.m */,
 				A64D732C1123363400D21DD1 /* CSRouteView.h */,
 				A64D732D1123363400D21DD1 /* CSRouteView.m */,
 				A64D732E1123363400D21DD1 /* CSRouteAnnotation.h */,
 				A64D732F1123363400D21DD1 /* CSRouteAnnotation.m */,
 				A648B8CF11207D0F005ADD8B /* CWGroupedController.h */,
 				A648B8D011207D0F005ADD8B /* CWGroupedController.m */,
-				A6B816D711189C3C00672F73 /* UIWindow+VisualMoveQue.h */,
-				A6B816D811189C3C00672F73 /* UIWindow+VisualMoveQue.m */,
-				A6CADE1210FB165800B116A3 /* NSString+CWLocalizedFormats.h */,
-				A6CADE1310FB165800B116A3 /* NSString+CWLocalizedFormats.m */,
-				A6B204BB10F5CC770029AA33 /* CWTranslatedString.h */,
-				A6B204BC10F5CC770029AA33 /* CWTranslatedString.m */,
 				A6BC386F10EB4EC100627F1E /* CWNetworkChecker.h */,
 				A6BC387010EB4EC100627F1E /* CWNetworkChecker.m */,
-				A634CFDC10CE5840001DD190 /* UIColor+CWEditableColor.h */,
-				A634CFDD10CE5840001DD190 /* UIColor+CWEditableColor.m */,
-				A6252C1E10CD076D005D3537 /* NSDate+CWExtentions.h */,
-				A6252C1F10CD076D005D3537 /* NSDate+CWExtentions.m */,
 				32CA4F630368D1EE00C91783 /* ResaISkane_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				A6D0767412215F72009494AE /* CWRateNagger.h */,
@@ -576,6 +552,29 @@
 				A60001E4111CC0BF009BD3DC /* FOMapViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		A689D60012CA9675005B2F1D /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				A689D56912CA8D95005B2F1D /* NSError+CWAdditions.h */,
+				A689D56A12CA8D95005B2F1D /* NSError+CWAdditions.m */,
+				A689D55012CA8C22005B2F1D /* NSOperationQueue+CWDefaultQueue.h */,
+				A689D55112CA8C22005B2F1D /* NSOperationQueue+CWDefaultQueue.m */,
+				A689D53C12CA8BD8005B2F1D /* NSInvocation+CWVariableArguments.h */,
+				A689D53D12CA8BD8005B2F1D /* NSInvocation+CWVariableArguments.m */,
+				A6B816D711189C3C00672F73 /* UIWindow+VisualMoveQue.h */,
+				A6B816D811189C3C00672F73 /* UIWindow+VisualMoveQue.m */,
+				A6CADE1210FB165800B116A3 /* NSString+CWLocalizedFormats.h */,
+				A6CADE1310FB165800B116A3 /* NSString+CWLocalizedFormats.m */,
+				A6B204BB10F5CC770029AA33 /* CWTranslatedString.h */,
+				A6B204BC10F5CC770029AA33 /* CWTranslatedString.m */,
+				A634CFDC10CE5840001DD190 /* UIColor+CWEditableColor.h */,
+				A634CFDD10CE5840001DD190 /* UIColor+CWEditableColor.m */,
+				A6252C1E10CD076D005D3537 /* NSDate+CWExtentions.h */,
+				A6252C1F10CD076D005D3537 /* NSDate+CWExtentions.m */,
+			);
+			name = Additions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -752,7 +751,6 @@
 				A648B8D111207D0F005ADD8B /* CWGroupedController.m in Sources */,
 				A64D73301123363400D21DD1 /* CSRouteView.m in Sources */,
 				A64D73311123363400D21DD1 /* CSRouteAnnotation.m in Sources */,
-				A69325A01124920200543841 /* GTMStackTrace.m in Sources */,
 				A6A6E5081191E4320095B839 /* FOPart.m in Sources */,
 				A6D0767612215F72009494AE /* CWRateNagger.m in Sources */,
 				A689D52A12CA89C0005B2F1D /* CWXMLTranslation.m in Sources */,
