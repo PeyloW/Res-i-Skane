@@ -1,0 +1,96 @@
+/*
+   Localizable.strings
+   ResaISkane
+
+   Created by Fredrik Olsson on 2009-12-07.
+   Copyright 2009 Fredrik Olsson. All rights reserved.
+ */
+
+"AppName" = "السفر سكان";
+
+"CWRateNagger-Title" = "كتابة مراجعه";
+"CWRateNagger-Message" = "شكرا لكم لاستخدام %APP_NAME% هل ترغب في كتابة مراجعة تطبيق الآن؟";
+"CWRateNagger-Accept" = "كتابة مراجعة";
+"CWRateNagger-Decline" = "ليس الآن";
+
+"CopyrightStatement" = "\nمعلومات عن حركة المرور في السويدية يتم توفيرها من قبل Skånetrafiken وحقوق الطبع والنشر.";
+"NoNetwork" = "شبكة غير متوفر";
+"NoNetworkTrips" = "يجب عليك اتصال واي فاي أو شبكة البيانات المتنقلة للبحث عن طرق.";
+"NoNetworkStops" = "يجب عليك اتصال واي فاي أو شبكة البيانات المتنقلة للبحث عن توقف.";
+"FailedNetworkMessage" = "لا يمكن تحميل البيانات من Skånetrafiken خوادم. يرجى المحاولة مرة أخرى في وقت لاحق.";
+"OK" = "موافق";
+"Cancel" = "إلغاء";
+
+"Arrival" = "يصل";
+"Departure" = "رحيل";
+"TravelRoute" = "طريق السفر";
+"From" = "من";
+"To" = "إلى";
+"Choose" = "اختيار…";
+"FromTitle" = "من:";
+"ToTitle" = "إلى:";
+"SearchTrips" = "العثور على طرق";
+"Clear" = "يزيل";
+
+"TranslateText" = "ترجمة المعلومات";
+"TranslateTextDisclaimer" = "ترجمة التلقائية مع Google translate قد تكون غير دقيقة.";
+
+"Walk" = "المشي";
+
+"TravelTimeTitle" = "السفر في الوقت";
+"Now" = "أقرب";
+"QuarterHour" = "حوالي خمس عشرة دقيقة";
+"HalfHour" = "حوالي نصف ساعة";
+"Hour" = "حوالي ساعة واحدة";
+"OtherDate" = "في وقت آخر…";
+"ArriveAt" = "يصل في";
+"DepartAt" = "تغادر في الساعة";
+
+"Trips" = "خيارات السفر";
+"Close" = "أغلق";
+"FromToTime" = "%@ ➠ %@";  // "12:42 ➠ 13:07", time format depends on lacale
+"TravelTime" = "%@ دقائق";   // "42 min", min is short for minutes.
+"LineNoChanges" = "%@";    // "Stadsbuss 8"
+"LineWithChanges" = "%@ ، ثم %@ تغييرات النقل"; // "Stadsbuss 8, then 2 changes"
+
+"Loading" = "خيارات السفر التحميل…";
+"DragToFetchBefore" = "اسحب لجلب السابقة…";
+"DropToFetchBefore" = "قطرة لجلب السابقة…";
+"DragToFetchAfter" = "اسحب لجلب المقبل…";
+"DropToFetchAfter" = "قطرة لجلب المقبل…";
+
+"TripActions" = "أداء العمل على خيارات السفر";
+"Bookmark" = "المرجعية خيارات السفر";
+"ShareText" = "تبادل الرسائل القصيرة";
+"ShareEmail" = "ارسل بالبريد الالكتروني";
+
+"TowardsTitle" = "الاتجاه:";
+"Position" = "موقف %@";
+"Platform" = ""; // "المسار %@";  // Commented out due to not reliable enough.
+"DeviationTimeDeparture" = "تحيد عن المغادرة المقررة في تمام الساعة %@.";
+"DeviationTimeArrival" = "تحيد عن المتوقع وصوله في تمام الساعة %@.";
+"ActualDeviationTimeDeparture" = "المخطط الجديد رحيل في %@.";
+"ActualDeviationTimeArrival" = "المخطط الجديد وصوله الى %@.";
+
+"Bookmarks" = "المواقع المفضلة";
+"NoBookmarks" = "أي إشارات مرجعية";
+"PointAPointB" = "%@\n ➠ %@";
+
+"FailedNetwork" = "خطأ ملقم";
+"CurrentLocation" = "بلدي الموقع الحالي";
+"LocationError" = "المكان الخطأ";
+"LocationErrorMessage" = "لا يمكن تحديد موقع بلدي الموقع الحالي";
+
+"Departures" = "المغادرة";
+"LoadingDepartures" = "المغادرين تحميل…";
+"Map" = "الخريطة";
+"All" = "الكل";
+"Busses" = "أتوبيسات";
+"Trains" = "القطارات";
+
+"Details" = "التفاصيل";
+"SubtitleStart" = "تغادر في الساعة %@ مع %@";
+"SubtitleMiddle" = "تصل في الساعة %@ مع %@\nتغادر في الساعة %@ مع %@";
+"SubtitleEnd" = "تصل في الساعة %@ مع %@";
+
+"CoordinateDisclaimer" = "بعض إحداثيات الخريطة لم يتم جلب من مسؤول Skånetrafiken الخادم ، وربما لذلك تكون غير دقيقة.";

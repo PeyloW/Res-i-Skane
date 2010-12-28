@@ -1,0 +1,102 @@
+/*
+   Localizable.strings
+   ResaISkane
+
+   Created by Fredrik Olsson on 2009-12-07.
+   Copyright 2009 Fredrik Olsson. All rights reserved.
+ */
+
+"AppName" = "Putuj u Skåni";
+
+"CWRateNagger-Title" = "Napiši recenziju";
+"CWRateNagger-Message" = "Hvala Vam što koristite% APP_NAME%. Želite li pisati recenziju programa sada?";
+"CWRateNagger-Accept" = "Pregled";
+"CWRateNagger-Decline" = "Ne sada";
+
+"CopyrightStatement" = "\nSaobraćajne informacije na švedskom jeziku su omogućene i zaštićene od Skånetrafiken.";
+"NoNetwork" = "Mreža nema pokrića";
+"NoNetworkTrips" = "Moraš se spojiti na Wi-Fi ili ćelijsku mrežu za prijenos podataka za pretraživanje putovanja.";
+"NoNetworkStops" = "Moraš se spojiti na Wi-Fi ili ćelijsku mrežu za prijenos podataka za pretraživanje stajališta.";
+"FailedNetworkMessage" = "Informacije se trenutno ne mogu učitati sa Skånetrafiken servera. Molimo vas da pokušate poslije.";
+"OK" = "Prihvati";     // 'ok' can be used as well
+"Cancel" = "Poništi";
+
+"Arrival" = "Dolazak";
+"Departure" = "Odlazak";
+"TravelRoute" = "Putna ruta";
+"From" = "od";
+"To" = "do";
+"Choose" = "Izaberi…";
+"FromTitle" = "Od:";
+"ToTitle" = "Do:";
+"SearchTrips" = "Traži putovanja";
+"Clear" = "Očisti";
+
+"TranslateText" = "Prevedi informacije";
+"TranslateTextDisclaimer" = "Automatski prevod sa Google translate prevodiocem ne mora biti ispravan.";
+
+"Walk" = "Idi";
+
+"TravelTimeTitle" = "Vrijeme putovanja";
+"Now" = "Sad";
+"QuarterHour" = "Za petnaest minuta";
+"HalfHour" = "Za pola sata";
+"Hour" = "Za jedan sat";
+"OtherDate" = "Drugo…";
+"OtherDateTitle" = "Drugo vrijeme";
+"ArriveAt" = "Dolazak u";
+"DepartAt" = "Odlazak u";
+
+"Trips" = "Putovanja";
+"Close" = "Zatvori";
+"FromToTime" = "%@ ➠ %@";
+"TravelTime" = "%@ min";
+"LineNoChanges" = "%@";
+"LineWithChanges" = "%@, zatim %@ presjedanja";
+
+"Loading" = "Učitavanje putovanja…";
+"DragToFetchBefore" = "Povuci da učitaš prethodni…";
+"DropToFetchBefore" = "Ispusti da učitaš prethodni…";
+"DragToFetchAfter" = "Povuci da učitaš sljedeći…";
+"DropToFetchAfter" = "Ispusti da učitaš sljedeći…";
+
+"TripActions" = "Izvedi akciju za putovanje";
+"Bookmark" = "Zabilježi putovanje";
+"ShareText" = "Podijeli kao tekst";
+"ShareEmail" = "Podijeli kao E-mail";
+
+"TowardsTitle" = "Prema:";
+"Position" = "Stajalište %@";
+"Platform" = ""; // "Peron %@";  // Commented out due to not reliable enough.
+"DeviationTimeDeparture" = "Odstupanje od planiranog odlaska u %@.";
+"DeviationTimeArrival" = "Odstupanje od planiranog dolaska u %@.";
+"ActualDeviationTimeDeparture" = "Odstupanje od planiranog odlaska u %@.";
+"ActualDeviationTimeArrival" = "Odstupanje od planiranog dolaska u %@.";
+
+"Bookmarks" = "Zabilježke";
+"NoBookmarks" = "Nema zabilježki";
+"PointAPointB" = "%@\n ➠ %@";
+
+"FailedNetwork" = "Greška na serveru";
+"CurrentLocation" = "Trenutna pozicija";
+"LocationError" = "Greška u lociranju";
+"LocationErrorMessage" = "Trenutna pozicija nije mogla biti locirana.";
+
+"FailedNetwork" = "Greška na serveru";
+"CurrentLocation" = "Trenutna pozicija";
+"LocationError" = "Greška u lociranju";
+"LocationErrorMessage" = "Trenutna pozicija nije mogla biti locirana.";
+
+"Departures" = "Odlasci";
+"LoadingDepartures" = "Učitavanje odlasci…";
+"Map" = "Karta";
+"All" = "Sve";
+"Busses" = "Autobusa";
+"Trains" = "Željeznica";
+
+"Details" = "Detalji";
+"SubtitleStart" = "Polazak u %@ sa %@";
+"SubtitleMiddle" = "Dolazak u %@ sa %@\nPolazak u %@ sa %@";
+"SubtitleEnd" = "Dolazak u %@ sa %@";
+
+"CoordinateDisclaimer" = "Neki karta koordinate nisu preuzeta iz službenih Skånetrafiken poslužitelj, i svibanj to će biti netočan.";

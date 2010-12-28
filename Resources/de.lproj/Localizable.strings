@@ -1,0 +1,97 @@
+/*
+   Localizable.strings
+   ResaISkane
+
+   Created by Fredrik Olsson on 2009-12-07.
+   Copyright 2009 Fredrik Olsson. All rights reserved.
+ */
+
+"AppName" = "Reisen in Skåne";
+
+"CWRateNagger-Title" = "Eigene Rezension erstellen";
+"CWRateNagger-Message" = "Danke, daß Sie sich für %APP_NAME% entschieden haben. Möchten Sie das Programm rezensieren?";
+"CWRateNagger-Accept" = "Rezensieren";
+"CWRateNagger-Decline" = "Später";
+
+"CopyrightStatement" = "\nDie Verkehrsdaten werden von Skånetrafiken zur Verfügung gestellt. Copyright Skånetrafiken.";
+"NoNetwork" = "Kein Netzwerk gefunden";
+"NoNetworkTrips" = "Ein Anschluss an ein Wifi oder mobiles Netzwerk wird benötigt um nach Reisealternativen zu suchen.";
+"NoNetworkStops" = "Ein Anschluss an ein Wifi oder mobiles Netzwerk wird benötigt um nach Haltestellen zu suchen.";
+"FailedNetworkMessage" = "Konnte nicht von Skånetrafikens Server laden. Bitte versuchen Sie es später wieder.";
+"OK" = "OK";
+
+"Arrival" = "Ankunft";
+"Departure" = "Abfahrt";
+"TravelRoute" = "Reiseweg";
+"From" = "Von";
+"To" = "Nach";
+"Choose" = "Wählen";
+"FromTitle" = "Von:";
+"ToTitle" = "Nach:";
+"SearchTrips" = "Reisen suchen";
+"Clear" = "Löschen";
+
+"TranslateText" = "Info übersetzen";
+"TranslateTextDisclaimer" = "Die automatische Übersetzung mit Google translate ist möglicherweise fehlerhaft.";
+
+"Walk" = "Fußweg";
+
+"TravelTimeTitle" = "Reisedauer";
+"Now" = "Sofort";
+"QuarterHour" = "In 15 Minuten";
+"HalfHour" = "In einer halben Stunde";
+"Hour" = "In einer Stunde";
+"OtherDate" = "Andere Zeit...";
+"OtherDateTitle" = "Andere Zeit";
+"ArriveAt" = "Ankunft um";
+"DepartAt" = "Abfahrt um";
+
+"Trips" = "Reisealternative";
+"Close" = "Schliessen";
+"FromToTime" = "%@ ➠ %@";
+"TravelTime" = "%@ min";
+"LineNoChanges" = "%@";
+"LineWithChanges" = "%@, dann %@ mal umsteigen";
+
+"Loading" = "Lade Reisealternativen…";
+"DragToFetchBefore" = "Ziehen um frühere zu laden…";
+"DropToFetchBefore" = "Loslassen um frühere zu laden…";
+"DragToFetchAfter" = "Ziehen um spätere zu laden…";
+"DropToFetchAfter" = "Loslassen um spätere zu laden…";
+
+"TripActions" = "Reisealternativen hantieren";
+"Bookmark" = "Zu Favoriten hinzufügen";
+"ShareText" = "Als SMS verschicken";
+"ShareEmail" = "Als E-mail verschicken";
+
+"TowardsTitle" = "Richtung:";
+"Position" = "Spurabschnitt %@";
+"Platform" = ""; // "Spur %@";  // Commented out due to not reliable enough.
+"DeviationTimeDeparture" = "Weicht ab von geplantem Abgang um %@.";
+"DeviationTimeArrival" = "Weicht ab von geplanter Ankunft um %@.";
+"ActualDeviationTimeDeparture" = "Weicht ab von geplantem Abgang um %@.";
+"ActualDeviationTimeArrival" = "Weicht ab von geplanter Ankunft um %@.";
+
+"Bookmarks" = "Favoriten";
+"NoBookmarks" = "Keine Favoriten";
+"PointAPointB" = "%@\n ➠ %@";
+
+"FailedNetwork" = "Server Fehler";
+"CurrentLocation" = "Mein Standort";
+"LocationError" = "Standort Fehler";
+"LocationErrorMessage" = "Konnte den momentanen Standort nicht finden.";
+
+"Departures" = "Abfahren";
+"LoadingDepartures" = "Lade Abfahrten…";
+"Map" = "Karte";
+"All" = "Alle";
+"Busses" = "Busse";
+"Trains" = "Züge";
+
+"Details" = "Details";
+"SubtitleStart" = "Abfahrt um %@ mit %@";
+"SubtitleMiddle" = "Ankunft um %@ mit %@\nAbfahrt um %@ mit %@";
+"SubtitleEnd" = "Ankunft um %@ mit %@";
+
+"CoordinateDisclaimer" = "Some map coordinates have not been fetched from the official Skånetrafiken server, and may therefor be inaccurate.";
+

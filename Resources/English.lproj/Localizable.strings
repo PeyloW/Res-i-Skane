@@ -1,0 +1,97 @@
+/*
+   Localizable.strings
+   ResaISkane
+
+   Created by Fredrik Olsson on 2009-12-07.
+   Copyright 2009 Fredrik Olsson. All rights reserved.
+ */
+
+"AppName" = "Travel in Skåne";
+
+"CWRateNagger-Title" = "Write Review";
+"CWRateNagger-Message" = "Thank you for using %APP_NAME%. Would you like to write an application review now?";
+"CWRateNagger-Accept" = "Write Review";
+"CWRateNagger-Decline" = "Not Now";
+
+"CopyrightStatement" = "\nTraffic information in Swedish is provided and copyrighted by Skånetrafiken.";
+"NoNetwork" = "No Network";
+"NoNetworkTrips" = "You must connect to a Wi-Fi or cellular data network to search for trips.";
+"NoNetworkStops" = "You must connect to a Wi-Fi or cellular data network to search for stops.";
+"FailedNetworkMessage" = "Could not load data from Skånetrafiken's servers. Please try again later.";
+"OK" = "OK";
+"Cancel" = "Cancel";
+
+"Arrival" = "Arrival";
+"Departure" = "Departure";
+"TravelRoute" = "Travel Route";
+"From" = "From";
+"To" = "To";
+"Choose" = "Choose…";
+"FromTitle" = "From:";
+"ToTitle" = "To:";
+"SearchTrips" = "Search Trips";
+"Clear" = "Clear";
+
+"TranslateText" = "Translate information";
+"TranslateTextDisclaimer" = "Automatic translations with Google translate may be inaccurate.";
+
+"Walk" = "Walk";
+
+"TravelTimeTitle" = "Travel Time";
+"Now" = "Now";
+"QuarterHour" = "In fifteen minutes";
+"HalfHour" = "In half an hour";
+"Hour" = "In an hour";
+"OtherDate" = "Other…";
+"OtherDateTitle" = "Other Time";
+"ArriveAt" = "Arrive at";
+"DepartAt" = "Depart at";
+
+"Trips" = "Trips";
+"Close" = "Close";
+"FromToTime" = "%@ ➠ %@";  // "12:42 ➠ 13:07", time format depends on lacale
+"TravelTime" = "%@ min";   // "42 min", min is short for minutes.
+"LineNoChanges" = "%@";    // "Stadsbuss 8"
+"LineWithChanges" = "%@, then %@ changes"; // "Stadsbuss 8, then 2 changes"
+
+"Loading" = "Loading trips…";
+"DragToFetchBefore" = "Drag to fetch previous…";
+"DropToFetchBefore" = "Drop to fetch previous…";
+"DragToFetchAfter" = "Drag to fetch next…";
+"DropToFetchAfter" = "Drop to fetch next…";
+
+"TripActions" = "Perform action for trips";
+"Bookmark" = "Bookmark trip";
+"ShareText" = "Share as Text";
+"ShareEmail" = "Share as E-mail";
+
+"TowardsTitle" = "Towards:";
+"Position" = "Stop %@";      // "Stop E"
+"Platform" = ""; // "Platform %@";  // Commented out due to not reliable enough.
+"DeviationTimeDeparture" = "Deviation from planned departure at %@.";   // "...at 12:37", time format depends on locale
+"DeviationTimeArrival" = "Deviation from planned arrival at %@.";       // ditto.
+"ActualDeviationTimeDeparture" = "New planned departure at %@.";   // "...at 12:37", time format depends on locale
+"ActualDeviationTimeArrival" = "New planned arrival at %@.";       // ditto.
+
+"Bookmarks" = "Bookmarks";
+"NoBookmarks" = "No Bookmarks";
+"PointAPointB" = "%@\n ➠ %@";   // "Lund C <line break> ➠ Södervärn Malmö"
+
+"FailedNetwork" = "Server Error";
+"CurrentLocation" = "My current location";
+"LocationError" = "Location Error";
+"LocationErrorMessage" = "Could not locate my current location.";
+
+"Departures" = "Departures";
+"LoadingDepartures" = "Loading departures…";
+"Map" = "Map";
+"All" = "All";
+"Busses" = "Busses";
+"Trains" = "Trains";
+
+"Details" = "Details";
+"SubtitleStart" = "Depart at %@ with %@";
+"SubtitleMiddle" = "Arrive at %@ with %@\nDepart at %@ with %@";
+"SubtitleEnd" = "Arrive at %@ with %@";
+
+"CoordinateDisclaimer" = "Some map coordinates have not been fetched from the official Skånetrafiken server, and may therefor be inaccurate.";

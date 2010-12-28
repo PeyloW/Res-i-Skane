@@ -1,0 +1,98 @@
+/*
+   Localizable.strings
+   ResaISkane
+
+   Created by Fredrik Olsson on 2009-12-07.
+   Copyright 2009 Fredrik Olsson. All rights reserved.
+ */
+
+"AppName" = "Voiaj în Skåne";
+
+"CWRateNagger-Title" = "Scrie o Recenzie";
+"CWRateNagger-Message" = "Vă mulţumim pentru folosirea %APP_NAME%. Doriţi să scrieţi o recenzie acum?";
+"CWRateNagger-Accept" = "Da";
+"CWRateNagger-Decline" = "Nu Acum";
+
+"CopyrightStatement" = "\nTraficul de informaţii în limba suedeză este asigurată de către Skånetrafiken.";
+"NoNetwork" = "Nu Există Rețea";
+"NoNetworkTrips" = "Trebuie să vă conectați la Wi-Fi sau la o reţea de telefonie mobilă de date pentru a căuta trasee.";
+"NoNetworkStops" =  "Trebuie să vă conectați la Wi-Fi sau la o reţea de telefonie mobilă de date pentru a căuta stații.";
+"FailedNetworkMessage" = "Nu s-au putut încărca datele de la serverele lui Skånetrafiken. Vă rugăm să încercaţi din nou mai târziu.";
+"OK" = "OK";
+"Cancel" = "Anulați";
+
+"Arrival" = "Sosire";
+"Departure" = "Plecare";
+"TravelRoute" = "Traseu";
+"From" = "De la";
+"To" = "La";
+"Choose" = "Alegeți…";
+"FromTitle" = "De la:";
+"ToTitle" = "La:";
+"SearchTrips" = "Caută Trasee";
+"Clear" = "Ștergeți";
+
+"TranslateText" = "Traduce informațiile";
+"TranslateTextDisclaimer" = "Traduceri automatice de Google translate pot fi inexacte.";
+
+"Walk" = "Mers";
+
+"TravelTimeTitle" = "Timpul de Călătorie";
+"Now" = "Acum";
+"QuarterHour" = "În 15 minute";
+"HalfHour" = "Într-o jumat de oră";
+"Hour" = "Într-o oră";
+"OtherDate" = "Alt…";
+"OtherDateTitle" = "Alt Timp";
+"ArriveAt" = "Sosește la";
+"DepartAt" = "Plecare la";
+
+"Trips" = "Trasee";
+"Close" = "Închideți";
+"FromToTime" = "%@ ➠ %@";  // "12:42 ➠ 13:07", time format depends on lacale
+"TravelTime" = "%@ min";   // "42 min", min is short for minutes.
+"LineNoChanges" = "%@";    // "Stadsbuss 8"
+"LineWithChanges" = "%@, apoi %@ schimbări"; // "Stadsbuss 8, then 2 changes"
+
+"Loading" = "Încărcarea traseelor…";
+"DragToFetchBefore" = "Glisaţi pentru încărca anteriorul…";
+"DropToFetchBefore" = "Lăsați să cadă pentru încărca anteriorul…";
+"DragToFetchAfter" = "Glisaţi pentru încărca următorul…";
+"DropToFetchAfter" = "Lăsați să cadă pentru încărca următorul…";
+
+"TripActions" = "Acțiuni cu trasee";
+"Bookmark" = "Adaugă la favorite";
+"ShareText" = "Trimite ca Text";
+"ShareEmail" = "Trimite ca E-mail";
+
+"TowardsTitle" = "Către:";
+"Position" = "Stația %@";      // "Stop E"
+"Platform" = ""; // "Platform %@";  // Commented out due to not reliable enough.
+"DeviationTimeDeparture" = "Abatere de la plecarea plănuită la %@.";   // "...at 12:37", time format depends on locale
+"DeviationTimeArrival" = "Abatere de la sosirea plănuită la %@.";       // ditto.
+"ActualDeviationTimeDeparture" = "Abatere de la plecarea plănuită la %@.";   // "...at 12:37", time format depends on locale
+"ActualDeviationTimeArrival" = "Abatere de la sosirea plănuită la %@.";       // ditto.
+
+"Bookmarks" = "Favorite";
+"NoBookmarks" = "Nu Există Favorite";
+"PointAPointB" = "%@\n ➠ %@";   // "Lund C <line break> ➠ Södervärn Malmö"
+
+"FailedNetwork" = "Eroare Server";
+"CurrentLocation" = "Loc actual";
+"LocationError" = "Eroare Localizare";
+"LocationErrorMessage" = "Nu sa putut determina locul actual.";
+
+"Departures" = "Plecări";
+"LoadingDepartures" = "Încărcarea plecărilor…";
+"Map" = "Hartă";
+"All" = "Toate";
+"Busses" = "Autobuze";
+"Trains" = "Trenuri";
+
+"Details" = "Detalii";
+"SubtitleStart" = "Pleacă la %@ cu %@";
+"SubtitleMiddle" = "Sosește la %@ cu %@\nPleacă la %@ cu %@";
+"SubtitleEnd" = "Sosește la %@ cu %@";
+
+"CoordinateDisclaimer" = "Some map coordinates have not been fetched from the official Skånetrafiken server, and may therefor be inaccurate.";
+

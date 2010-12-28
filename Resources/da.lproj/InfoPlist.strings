@@ -1,0 +1,9 @@
+/* 
+   InfoPlist.strings
+   ResaISkane
+
+   Created by Kasper Hansen on 2010-01-08.
+   Copyright 2009 Fredrik Olsson. All rights reserved.
+ */
+
+CFBundleDisplayName = "Rejs i Skåne";

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StartPoints</key>
+	<dict>
+		<key>@dummy</key>
+		<true/>
+		<key>Point</key>
+		<dict>
+			<key>@class</key>
+			<string>CWPoint</string>
+			<key>Id</key>
+			<array>
+				<string>ID</string>
+				<string>NSNumber</string>
+			</array>
+			<key>Name</key>
+			<string>name</string>
+			<key>Type</key>
+			<array>
+				<string>type</string>
+				<string>NSNumber</string>
+			</array>
+			<key>X</key>
+			<array>
+				<string>x</string>
+				<string>NSNumber</string>
+			</array>
+			<key>Y</key>
+			<array>
+				<string>y</string>
+				<string>NSNumber</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,76 @@
+/*
+   Localizable.strings
+   ResaISkane
+
+   Created by Fredrik Olsson on 2009-12-07.
+   Copyright 2009 Fredrik Olsson. All rights reserved.
+ */
+
+"AppName" = "Travel in Skåne";
+
+"CopyrightStatement" = "\nTraffic information in Swedish is provided and copyrighted by Skånetrafiken.";
+"NoNetwork" = "Эхђ ёхђш";
+"NoNetworkTrips" = "Тћ фюыцэћ яюфъыўїшђќёџ ъ Wi-Fi шыш ёюђютющ ёхђш фыџ яюшёър яюхчфюъ.";
+"NoNetworkStops" = "Тћ фюыцэћ яюфъыўїшђќёџ ъ Wi-Fi шыш ёюђютющ ёхђш фыџ яюшёър юёђрэютюъ.";
+"FailedNetworkMessage" = "Эхтючьюцэю чру№ѓчшђќ фрээћх ё ёх№тх№ют SkУЅnetrafiken. Яюцрыѓщёђр яюя№юсѓщђх яючфэхх.";
+"OK" = "OK";
+"Cancel" = "Юђьхэр";
+
+"Arrival" = "Я№шсћђшх";
+"Departure" = "Юђя№ртыхэшх";
+"TravelRoute" = "Ьр№ј№ѓђ яѓђхјхёђтшџ";
+"From" = "Шч";
+"To" = "Т";
+"Choose" = "Тћсх№шђх";
+"FromTitle" = "Шч:";
+"ToTitle" = "Т:";
+"SearchTrips" = "Яюшёъ яюхчфюъ";
+"Clear" = "Юїшёђшђќ";
+
+"TranslateText" = "Ях№хтхёђш ђхъёђ эр ф№ѓующ џчћъ";
+"TranslateTextDisclaimer" = "Ртђюьрђшїхёъшщ ях№хтюф ё яюьюљќў ёыѓцсћ Google translate ьюцхђ сћђќ эхђюїэћь.";
+
+"Walk" = "Яхјъюь";
+
+"TravelTimeTitle" = "Фышђхыќэюёђќ яѓђхјхёђтшџ";
+"Now" = "бхщїрё";
+"QuarterHour" = "Т ђхїхэшх 15 ьшэѓђ";
+"HalfHour" = "Т ђхїхэшх яюыѓїрёр";
+"Hour" = "Т ђхїхэшх їрёр";
+"OtherDate" = "Ф№ѓующ фхэќ";
+"OtherDateTitle" = "Ф№ѓуюх т№хьџ";
+"ArriveAt" = "Я№шсћђшх т";
+"DepartAt" = "Юђя№ртыхэшх т";
+
+"Trips" = "Яюхчфъш";
+"Close" = "Чръ№ћђќ";
+"FromToTime" = "%@ ➠ %@";  // "12:42 т  13:07", time format depends on lacale
+"TravelTime" = "%@ ьшэ";   // "42 min", min is short for minutes.
+"LineNoChanges" = "%@";    // "Stadsbuss 8"
+"LineWithChanges" = "%@, фрыхх %@ ях№хёрфъш"; // "Stadsbuss 8, then 2 changes"
+
+"Loading" = "Чру№ѓчър яюхчфюъ";
+"DragToFetchBefore" = "Drag to fetch previousтІ";
+"DropToFetchBefore" = "Drop to fetch previousтІ";
+"DragToFetchAfter" = "Drag to fetch nextтІ";
+"DropToFetchAfter" = "Drop to fetch nextтІ";
+
+"TripActions" = "Perform action for trips";
+"Bookmark" = "Чряюьэшђќ яюхчфъѓ";
+"ShareText" = "Share as Text";
+"ShareEmail" = "Share as E-mail";
+
+"TowardsTitle" = "Towards:";
+"Position" = "Stop %@";      // "Stop E"
+"Platform" = ""; // "Platform %@";  // Commented out due to not reliable enough.
+"DeviationTimeDeparture" = "Deviation from planned departure at %@.";   // "...at 12:37", time format depends on locale
+"DeviationTimeArrival" = "Deviation from planned arrival at %@.";       // ditto.
+
+"Bookmarks" = "Чръырфъш";
+"NoBookmarks" = "No Bookmarks";
+"PointAPointB" = "%@\n ➠ %@";   // "Lund C <line break> т  SУЖdervУЄrn MalmУЖ"
+
+"FailedNetwork" = "Ошибка сервера";
+"CurrentLocation" = "Мое текущее положение";
+"LocationError" = "Ошибка определения положения";
+"LocationErrorMessage" = "Невозможно определить текущее положение.";

@@ -1,0 +1,97 @@
+/*
+   Localizable.strings
+   ResaISkane
+
+   Créé par Fredrik Olsson le 2009-12-29
+Copyright 2009 Fredrik Olsson. Tous droits réservés.
+ */
+
+"AppName" = "Scanie Voyage";
+
+"CWRateNagger-Title" = "Ecrire un commentaire";
+"CWRateNagger-Message" = "Merci d'avoir choisi %APP_NAME%. Souhaitez-vous écrire un examen de la demande maintenant?";
+"CWRateNagger-Accept" = "Commentaire";
+"CWRateNagger-Decline" = "Pas maintenant";
+
+"CopyrightStatement" = "\nLes informations de circulation fournies sont fournies et sous copyright de Skånetrafiken.";
+"NoNetwork" = "Pas de réseau";
+"NoNetworkTrips" = "Connectez vous à un réseau Wi-Fi ou de données cellulaires pour rechercher un trajet.";
+"NoNetworkStops" = "Connectez vous à un réseau Wi-Fi ou de données cellulaires pour rechercher un arrêt.";
+"FailedNetworkMessage" = "Impossible de charger les données du serveur de Skånetrafiken. Re-essayez plus tard S.v.p.";
+"OK" = "OK";
+"Cancel" = "Annuler";
+
+"Arrival" = "Arrivée";
+"Departure" = "Départ";
+"TravelRoute" = "Description trajet";
+"From" = "De";
+"To" = "Á";
+"Choose" = "Choisir…";
+"FromTitle" = "De:";
+"ToTitle" = "À:";
+"SearchTrips" = "Chercher un trajet";
+"Clear" = "Effacer";
+
+"TranslateText" = "Traduction";
+"TranslateTextDisclaimer" = "Traduction automatique par Google translate, erreur possible.";
+
+"Walk" = "Marcher";
+
+"TravelTimeTitle" = "Horaires de voyage";
+"Now" = "Maintenant";
+"QuarterHour" = "Dans 15 minutes";
+"HalfHour" = "Dans une demi-heure";
+"Hour" = "Dans une heure";
+"OtherDate" = "Autre…";
+"OtherDateTitle" = "Autre date";
+"ArriveAt" = "Arrive à";
+"DepartAt" = "Part à";
+
+"Trips" = "Trajet";
+"Close" = "Fermer";
+"FromToTime" = "%@ ➠ %@";  // "12:42 ➠ 13:07", time format depends on lacale
+"TravelTime" = "%@ min";   // "42 min", min is short for minutes.
+"LineNoChanges" = "%@";    // "Stadsbuss 8"
+"LineWithChanges" = "%@, puis %@ changements"; // "Stadsbuss 8, then 2 changes"
+
+"Loading" = "Chargement des trajets…";
+"DragToFetchBefore" = "Faire glisser pour atteindre le précédent…";
+"DropToFetchBefore" = "Relacher pour atteindre le précédent…";
+"DragToFetchAfter" = "Faire glisser pour atteindre le prochain…";
+"DropToFetchAfter" = "Relacher pour atteindre le prochain…";
+
+"TripActions" = "Actions";
+"Bookmark" = "Mes Signets";
+"ShareText" = "Partager comme texte";
+"ShareEmail" = "Partager comme email";
+
+"TowardsTitle" = "Vers:";
+"Position" = "Arrêt %@";      // "Stop E"
+"Platform" = ""; // "Quai %@";  // Commented out due to not reliable enough.
+"DeviationTimeDeparture" = "Prévision de départ %@.";   // "…à 12:37", time format depends on locale
+"DeviationTimeArrival" = "Prévision d'arrivée à %@.";       // ditto.
+"ActualDeviationTimeDeparture" = "Nouveau départ planifié à %@.";   // "…à 12:37", time format depends on locale
+"ActualDeviationTimeArrival" = "Nouveau d'arrivée planifié à %@";       // ditto.
+
+"Bookmarks" = "Sinets";
+"NoBookmarks" = "Pas de signets";
+"PointAPointB" = "%@\n ➠ %@";   // "Lund C <line break> ➠ Södervärn Malmö"
+
+"FailedNetwork" = "Erreur du serveur";
+"CurrentLocation" = "Ma position actuelle";
+"LocationError" = "L'erreur de localisation";
+"LocationErrorMessage" = "Impossible de trouver ma position actuelle.";
+
+"Departures" = "Départs";
+"LoadingDepartures" = "Chargement des départs…";
+"Map" = "Carte";
+"All" = "Tous";
+"Busses" = "Les bus";
+"Trains" = "Trains";
+
+"Details" = "Détails";
+"SubtitleStart" = "Départ à %@ de %@";
+"SubtitleMiddle" = "Arrivez à %@ avec %@\nDépart à %@ de %@";
+"SubtitleEnd" = "Arrivez à %@ avec %@";
+
+"CoordinateDisclaimer" = "Some map coordinates have not been fetched from offivial Skånetrafiken server, and may therefor be inaccurate.";

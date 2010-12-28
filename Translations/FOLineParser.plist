@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Line</key>
+	<dict>
+		<key>@class</key>
+		<string>CWLine</string>
+		<key>Name</key>
+		<string>name</string>
+		<key>No</key>
+		<string>number</string>
+		<key>JourneyDateTime</key>
+		<array>
+			<string>departure</string>
+			<string>NSDate</string>
+		</array>
+		<key>StopPoint</key>
+		<string>stopPoint</string>
+		<key>LineTypeName</key>
+		<string>typeName</string>
+		<key>Towards</key>
+		<string>towards</string>
+		<key>DepTimeDeviation</key>
+		<array>
+			<string>departureDeviation</string>
+			<string>NSNumber</string>
+		</array>
+		<key>Deviation</key>
+		<dict>
+			<key>@class</key>
+			<string>CWDeviation</string>
+			<key>@key</key>
+			<string>+deviations</string>
+			<key>Header</key>
+			<string>header</string>
+			<key>ShortText</key>
+			<string>shortText</string>
+		</dict>
+	</dict>
+	<key>Message</key>
+	<string>@object</string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+/* 
+   InfoPlist.strings
+   ResaISkane
+
+   Created by Fredrik Olsson on 2009-12-29.
+   Copyright 2009 Fredrik Olsson. All rights reserved.
+ */
+
+CFBundleDisplayName = "Travel Skåne";

@@ -1,0 +1,98 @@
+/*
+   Localizable.strings
+   ResaISkane
+
+   Created by Kasper Hansen on 2010-01-08.
+   Copyright 2009 Fredrik Olsson. All rights reserved.
+ */
+
+"AppName" = "Rejs i Skåne";
+
+"CWRateNagger-Title" = "Skriv anmeldelse";
+"CWRateNagger-Message" = "Tak for at bruge %APP_NAME%. Kunne du tænke dig at skrive en software anmeldelse nu?";
+"CWRateNagger-Accept" = "Anmeldelse";
+"CWRateNagger-Decline" = "Ikke nu";
+
+"CopyrightStatement" = "\nTrafikinformation på svensk leveres og er copyright af Skånetrafiken.";
+"NoNetwork" = "Intet netværk";
+"NoNetworkTrips" = "Det kræver en forbindelse til et Wi-Fi eller mobil netværk at søge efter rejser.";
+"NoNetworkStops" = "Det kræver en forbindelse til et Wi-Fi eller mobil netværk at søge efter stop.";
+"FailedNetworkMessage" = "Kunne ikke hente data fra Skånetrafikens server. Prøv igen senere.";
+"OK" = "OK";
+"Cancel" = "Annuller";
+
+"Arrival" = "Ankomst";
+"Departure" = "Afgang";
+"TravelRoute" = "Rejseplan";
+"From" = "Fra";
+"To" = "Til";
+"Choose" = "Vælg…";
+"FromTitle" = "Fra:";
+"ToTitle" = "Til:";
+"SearchTrips" = "Find rejser";
+"Clear" = "Ryd";
+
+"TranslateText" = "Oversæt information";
+"TranslateTextDisclaimer" = "Automatiske oversættelser med Google translate kan være upræcise.";
+
+"Walk" = "Gang";
+
+"TravelTimeTitle" = "Tidspunkt";
+"Now" = "Nu";
+"QuarterHour" = "Om et kvarter";
+"HalfHour" = "Om en halv time";
+"Hour" = "Om en time";
+"OtherDate" = "Andet tidspunkt…";
+"OtherDateTitle" = "Andet tidspunkt";
+"ArriveAt" = "Ankomsttid";
+"DepartAt" = "Afgangstid";
+
+"Trips" = "Rejser";
+"Close" = "Luk";
+"FromToTime" = "%@ ➠ %@";
+"TravelTime" = "%@ min";
+"LineNoChanges" = "%@";
+"LineWithChanges" = "%@, derefter %@ skift";
+
+"Loading" = "Søger efter rejser…";
+"DragToFetchBefore" = "Træk for at hente tidligere…";
+"DropToFetchBefore" = "Slip for at hente tidligere…";
+"DragToFetchAfter" = "Træk for at hente senere…";
+"DropToFetchAfter" = "Slip for at hente senere…";
+
+"TripActions" = "Udfør for rejser";
+"Bookmark" = "Bogmærk rejse";
+"ShareText" = "Del via SMS";
+"ShareEmail" = "Del via e-mail";
+
+"TowardsTitle" = "Retning:";
+"Position" = "Stop %@";
+"Platform" = ""; // "Spor %@";  // Commented out due to not reliable enough.
+"DeviationTimeDeparture" = "Afviger fra planlagt afgangstid %@.";
+"DeviationTimeArrival" = "Afviger fra planlagt ankomsttid %@.";
+"ActualDeviationTimeDeparture" = "Ny planlagt afgangstid %@.";
+"ActualDeviationTimeArrival" = "Ny planlagt ankomsttid %@.";
+
+"Bookmarks" = "Bogmærker";
+"NoBookmarks" = "Ingen bogmærker";
+"PointAPointB" = "%@\n ➠ %@";
+
+"FailedNetwork" = "Server fejl";
+"CurrentLocation" = "Min nuværende position";
+"LocationError" = "Positioneringsfejl";
+"LocationErrorMessage" = "Kunne ikke finde min nuværende position.";
+
+"Departures" = "Afgange";
+"LoadingDepartures" = "Laddar Afgange…";
+"Map" = "Kort";
+"All" = "Alle";
+"Busses" = "Busser";
+"Trains" = "Tog";
+
+"Details" = "Detaljer";
+"SubtitleStart" = "Afgang kl %@ med %@";
+"SubtitleMiddle" = "Ankomst kl %@ med %@\nAfgang kl %@ med %@";
+"SubtitleEnd" = "Ankomst kl %@ med %@";
+
+"CoordinateDisclaimer" = "Nogle kortkoordinater er ikke taget fra Skånetrafiken officielle server, og kan derfor være forkert.";
+
